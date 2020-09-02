@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=D100PlusRunner
+comment0.text=\n\ Instantiates\ a\ D100Plus\ object\ where\ it\ is\ rolled.\ The\ first\ five\ rolls\ as\ well\ as\ every\ roll\ that\ totalled\ 100\ or\ above\ is\ \n\ printed\ to\ the\ console\ after\ 1000\ rolls.\ The\ number\ of\ rolls\ that\ takes\ to\ roll\ a\ number\ 300\ or\ above\ is\ also\ printed\ to\ the\ \n\ console.\n\n\ @author\ Alexander\ Shapiro\n\ @version\ 3/14/18\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

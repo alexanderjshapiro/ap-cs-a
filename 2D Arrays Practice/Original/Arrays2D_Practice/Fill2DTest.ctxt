@@ -1,0 +1,46 @@
+#BlueJ class context
+comment0.target=Fill2DTest
+comment0.text=\n\ The\ test\ class\ Fill2DTest.\n\n\ @author\ \ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=void\ boxFill()
+comment10.params=
+comment10.target=Fill2DTest()
+comment10.text=\n\ Default\ constructor\ for\ test\ class\ Fill2DTest\n
+comment11.params=
+comment11.target=void\ setUp()
+comment11.text=\n\ Sets\ up\ the\ test\ fixture.\n\n\ Called\ before\ every\ test\ case\ method.\n
+comment12.params=
+comment12.target=void\ tearDown()
+comment12.text=\n\ Tears\ down\ the\ test\ fixture.\n\n\ Called\ after\ every\ test\ case\ method.\n
+comment13.params=arr
+comment13.target=java.lang.String\ summarize(int[])
+comment13.text=\n\ Returns\ a\ String\ that\ summarizes\ the\ contents\ of\ the\ array.\n\ For\ example\:\ give\ an\ array\ of\ three\ elements\:\n\ \ arr[0]\ \=\ 5,\ arr[1]\ \=\ 10,\ arr[2]\ \=\ 15\ the\ result\ is\:\n\ \ {5,10,15}\n\ @param\ \ arr\ \ \ the\ array\ to\ summarize\n\ @return\ \ \ \ \ String\ in\ the\ form\ {arr[0],arr[...],arr[arr.length\ -1]}\n\n
+comment14.params=arr
+comment14.target=java.lang.String\ summarize(double[])
+comment14.text=\n\ Returns\ a\ String\ that\ summarizes\ the\ contents\ of\ the\ array.\n\ For\ example\:\ give\ an\ array\ of\ three\ elements\:\n\ \ arr[0]\ \=\ 5.0,\ arr[1]\ \=\ 10.5,\ arr[2]\ \=\ 15.75\ the\ result\ is\:\n\ \ {5.0,10.5,15.75}\n\ @param\ \ arr\ \ \ the\ array\ to\ summarize\n\ @return\ \ \ \ \ String\ in\ the\ form\ {arr[0],arr[...],arr[arr.length\ -1]}\n\n
+comment15.params=arr
+comment15.target=java.lang.String\ summarize(java.lang.String[])
+comment15.text=\n\ Returns\ a\ String\ that\ summarizes\ the\ contents\ of\ the\ array.\n\ For\ example\:\ give\ an\ array\ of\ three\ elements\:\n\ \ arr[0]\ \=\ "A",\ arr[1]\ \=\ "BC",\ arr[2]\ \=\ "DEF"\ the\ result\ is\:\n\ \ {"A","BC","DEF"}\n\ @param\ \ arr\ \ \ the\ array\ to\ summarize\n\ @return\ \ \ \ \ String\ in\ the\ form\ {arr[0],arr[...],arr[arr.length\ -1]}\n\n
+comment16.params=arr2d
+comment16.target=java.lang.String\ summarize(int[][])
+comment16.text=\n\ Returns\ a\ String\ that\ summarizes\ the\ contents\ of\ the\ array\ in\ row\ major\ order.\n\ For\ example\:\ give\ an\ array\ of\ three\ elements\:\n\ \ arr2d[0][0]\ \=\ 5,\ arr2d[0][1]\ \=\ 10,\ arr2d[1][0]\ \=\ 15,\ arr2d[1][1]\ \=\ 20\ the\ result\ is\:\n\ \ {{5,10},{15,20}}\n\ @param\ \ arr\ \ \ the\ array\ to\ summarize\n\ @return\ \ \ \ \ String\ in\ the\ form\ {{r0c0,r0c...},{r...c0,r...c...}}\n\n
+comment17.params=arr2d
+comment17.target=java.lang.String\ summarize(java.lang.String[][])
+comment17.text=\n\ Returns\ a\ String\ that\ summarizes\ the\ contents\ of\ the\ array\ in\ row\ major\ order.\n\ For\ example\:\ give\ an\ array\ of\ three\ elements\:\n\ \ arr[0][0]\ \=\ "A",\ arr[0][1]\ \=\ "BC",\ arr[1][0]\ \=\ "DEF",\ arr[1][1]\ the\ result\ is\:\n\ \ {{"A","BC"},{"DEF","GHIJ"}}\n\ @param\ \ arr\ \ \ the\ array\ to\ summarize\n\ @return\ \ \ \ \ String\ in\ the\ form\ {{r0c0,r0c...},{r...c0,r...c...}}\n\n
+comment2.params=rows\ cols\ border\ interior
+comment2.target=int[][]\ boxFill(int,\ int,\ int,\ int)
+comment3.params=
+comment3.target=void\ yourName()
+comment4.params=
+comment4.target=void\ fill_lToR_rToL()
+comment5.params=rows\ cols
+comment5.target=int[][]\ fill_lToR_rToL(int,\ int)
+comment6.params=
+comment6.target=void\ multMatrixByVector()
+comment7.params=matrix\ vector
+comment7.target=int[]\ multMatrixByVector(int[][],\ int[])
+comment8.params=
+comment8.target=void\ multMatrixByMatrix()
+comment9.params=matrix1\ matrix2
+comment9.target=int[][]\ multMatrixByMatrix(int[][],\ int[][])
+numComments=18

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Arrays1D_EnhancedFor
+comment0.text=\n\ Write\ a\ description\ of\ class\ Arrays1D_EnhancedFor\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=values
+comment1.target=int\ sum(int[])
+comment1.text=\n\ Given\ an\ array\ of\ integer\ values\ return\ the\ sum.\n\ Precondition\:\ \ \ \ values\ is\ not\ null\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ values.length\ >\ 0\n\ Postcondition\:\ \ \ values\ is\ unchanged\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \n\ @param\ \ \ values\ \ an\ array\ of\ integer\ values\n\ @return\ \ the\ sum\ of\ the\ values\ in\ the\ parameter\ array\n
+comment2.params=scores
+comment2.target=double\ specialAverage(int[])
+comment2.text=\n\ Given\ an\ array\ of\ scores\ calculate\ the\ special\ average.\n\ The\ special\ average\ only\ includes\ scores\ that\ are\ greater\n\ than\ or\ equal\ to\ zero,\ ignoring\ scores\ below\ zero.\n\ Precondition\:\ \ \ \ scores\ is\ not\ null\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ scores.length\ >\ 0\n\ Postcondition\:\ \ \ scores\ is\ unchanged\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \n\ @param\ \ \ scores\ \ an\ array\ of\ scores\n\ @return\ \ the\ average\ of\ scores\ >\=\ 0\n
+comment3.params=scores
+comment3.target=double\ niceAverage(int[])
+comment3.text=\n\ Given\ an\ array\ of\ scores\ calculate\ the\ nice\ average.\n\ The\ nice\ average\ drops\ the\ single\ lowest\ score.\n\ \n\ Precondition\:\ \ \ \ scores\ is\ not\ null\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ scores.length\ >\ 1\ \n\ Postcondition\:\ \ \ scores\ is\ unchanged\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \n\ @param\ \ \ scores\ \ an\ array\ of\ scores\n\ @return\ \ the\ average\ of\ ignoring\ the\ single\ losest\ score.\n
+comment4.params=scores
+comment4.target=int\ tossSum(int[])
+comment4.text=\n\ Given\ an\ array\ of\ scores\ calculate\ the\ tossSum\ by.\n\ discarding\ the\ highest\ and\ loswest\ values\ in\ the\ array.\n\ \n\ Precondition\:\ \ \ \ scores\ is\ not\ null\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ scores.length\ >\ 2\ \n\ Postcondition\:\ \ \ scores\ is\ unchanged\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \n\ @param\ \ \ scores\ \ an\ array\ of\ scores\n\ @return\ \ return\ the\ sum\ of\ scores\ without\ the\ highest\n\ \ \ \ \ \ \ \ \ \ and\ lowest\ score\ included\n
+comment5.params=scores
+comment5.target=int[]\ adjustedScores(int[])
+comment5.text=\n\ An\ enhanced\ for\ loop\ isn't\ always\ the\ best\ choice.\n\ \n\ The\ next\ method\ will\ require\ two\ succesive\ loops\ to\ solve.\n\ \n\ The\ first\ loop\ should\ be\ an\ enhanced\ for\ loop\ but\ the\ second\n\ you\ can\ write\ any\ way\ you\ want.\n\ \n\ Given\ an\ array\ of\ scores\ you\ will\ return\ a\ new\ array\ where\ the\n\ each\ value\ has\ been\ increased\ by\ the\ amount\ it\ takes\ for\ the\n\ highest\ score\ to\ be\ at\ least\ 100.\n\ \n\ Precondition\:\ \ \ \ scores\ is\ not\ null\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ scores.length\ >\ 0\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ all\ values\ in\ scores\ >\=\ 0\ and\ <\=\ 100\n\ Postcondition\:\ \ \ scores\ is\ unchanged\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \n\ @param\ \ \ scores\ \ an\ array\ of\ scores\n\ @return\ \ a\ parallel\ array\ of\ adjusted\ scores\n
+comment6.params=scores
+comment6.target=int\ mode(int[])
+comment6.text=\n\ The\ mathematical\ mode\ is\ defined\ as\:\n\ \ \ \ \ \ The\ number\ which\ appears\ most\ often\ in\ a\ set\ of\ numbers.\n\ \ \ \ \ \ Example\:\ in\ {6,\ 3,\ 9,\ 6,\ 6,\ 5,\ 9,\ 3}\ the\ Mode\ is\ 6\ (it\ occurs\ most\ often).\n\ \ \ \ \ \ \n\ Given\ an\ array\ scores\ of\ of\ at\ least\ 0,\ return\ the\ most\ common\ score.\n\ \n\ Precondition\:\ \ \ \ scores\ is\ not\ null\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ scores.length\ >\ 0\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ all\ values\ in\ scores\ >\=\ 0\ and\ <\=\ 100\n\ Postcondition\:\ \ \ scores\ is\ unchanged\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \n\ @param\ \ \ scores\ \ an\ array\ of\ scores\n\ @return\ \ the\ score\ that\ appears\ most\ often\n
+numComments=7

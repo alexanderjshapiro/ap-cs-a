@@ -1,0 +1,37 @@
+#BlueJ class context
+comment0.target=StringLists
+comment0.text=\n\ In\ this\ project\ you\ will\ learn\ to\ use\ the\ ArrayList\ class.\n\ Some\ of\ the\ problems\ below\ are\ ones\ that\ we've\ seen\ in\ the\ past.\ \ Don't\ just\ copy/paste\n\ from\ your\ original\ solution,\ solve\ it\ again\!\ \ It's\ good\ practice.\n\ First\ you\ will\ complete\ each\ method\ using\ an\ array.\ \ \ \n\ Next\ you\ will\ complete\ the\ the\ same\ method\ immediately\ following\ the\ array\ problem\ \n\ except\ this\ time\ you\ will\ use\ an\ ArrayList.\n\ \n\ Here\ is\ a\ quick\ reference\ to\ the\ Java\ List\ methods.\ \ E\ represents\ any\ Java\ object\ type\:\n\ \ \ int\ size()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ returns\ the\ number\ of\ elements\ in\ the\ List\n\ \ \ \n\ \ \ boolean\ add(E\ obj)\ \ \ \ \ \ \ \ \ \ \ appends\ obj\ to\ end\ of\ list;\ returns\ true\n\ \ \ \n\ \ \ void\ add(int\ index,\ E\ obj)\ \ \ inserts\ obj\ at\ position\ index\ (0\ <\=\ index\ <\=\ size)\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ moving\ elements\ at\ position\ index\ and\ higher\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ to\ the\ right\ (adds\ 1\ to\ their\ indices)\ and\ adjusts\ size\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \n\ \ \ E\ get(int\ index)\ \ \ \ \ \ \ \ \ \ \ \ \ gets\ the\ element\ at\ the\ specified\ index\n\ \ \ \n\ \ \ E\ set(int\ index,\ E\ obj)\ \ \ \ \ \ replaces\ the\ element\ at\ position\ index\ with\ obj.\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ returns\ the\ element\ formerly\ at\ the\ specified\ position\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \n\ \ \ E\ remove(int\ index)\ \ \ \ \ \ \ \ \ \ removes\ element\ from\ position\ index,\ moving\ elements\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ at\ position\ index\ +\ 1\ and\ higher\ to\ the\ left\ (subtracts\ 1\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ from\ their\ indices)\ and\ adjusts\ size.\ \ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Returns\ the\ element\ formerly\ at\ the\ specified\ position\n\ \n\ @author\ (Alexander\ Shapiro)\ \n\ @version\ Unit\ 6\n
+comment1.params=
+comment1.target=java.lang.String\ yourName()
+comment1.text=\n\ Simply\ return\ your\ name\ as\ a\ String,\ last\ name\ then\ first\ name,\ separated\ by\ a\ comma\n\n\ @return\ your\ name\ as\ a\ String\n
+comment10.params=strings\ target
+comment10.target=java.lang.String[]\ removeTarget(java.lang.String[],\ java.lang.String)
+comment10.text=\n\ Given\ an\ array\ of\ Strings,\ return\ an\ array\ with\ the\ target\ String\ removed\n\ Create\ a\ new\ array\ to\ store\ the\ new\ smaller\ array\n\n\ @param\ strings\ an\ array\ of\ Strings\n\ @param\ target\ the\ String\ to\ remove\n\ \n\ @return\ a\ new\ array\ of\ Strings\ that\ has\ target\ removed\n\ \n
+comment11.params=strings\ target
+comment11.target=java.util.List\ removeTarget(java.util.List,\ java.lang.String)
+comment11.text=\n\ Given\ a\ List\ of\ Strings,\ return\ a\ List\ with\ the\ target\ String\ removed\n\ No\ need\ to\ create\ a\ new\ list\ with\ the\ String\ removed,\ just\ modify\ the\ strings\ parameter\ directly\n\ WARNING\:\ This\ can\ be\ tricky\!\ If\ you\ are\ using\ a\ for\ loop,\ what\ happens\ when\ you\ remove\n\ an\ item\ based\ on\ the\ current\ index?\n\n\ @param\ strings\ a\ List\ of\ Strings\n\ @param\ target\ the\ String\ to\ remove\n\ \n\ @return\ the\ list\ with\ the\ target\ String\ removed\n\ \n
+comment2.params=a1\ a2
+comment2.target=boolean\ arraysAreEqual(java.lang.String[],\ java.lang.String[])
+comment2.text=\n\ Given\ 2\ arrays\ of\ Strings,\ return\ true\ if\ they\ are\ exactly\ the\ same\n\n\ @param\ a1\ an\ array\ of\ Strings\n\ @param\ a2\ an\ array\ of\ Strings\n\ @return\ true\ if\ the\ arrays\ contain\ the\ same\ data.\n\ \n
+comment3.params=a1\ a2
+comment3.target=boolean\ arraysAreEqual(java.util.List,\ java.util.List)
+comment3.text=\n\ Given\ 2\ Lists\ of\ Strings,\ return\ true\ if\ they\ are\ exactly\ the\ same\n\n\ @param\ a1\ a\ List\ of\ Strings\n\ @param\ a2\ a\ List\ of\ Strings\n\ @return\ true\ if\ the\ Lists\ contain\ the\ same\ data.\n\ \n
+comment4.params=s
+comment4.target=java.lang.String[]\ strToArr(java.lang.String)
+comment4.text=\n\ Given\ a\ String,\ return\ an\ array\ of\ Strings\ where\ each\ character\ is\ a\ single\ element.\n\n\ @param\ s\ is\ a\ String\n\ @return\ an\ array\ of\ strings\ where\ each\ character\ in\ s\ is\ an\ element\ of\ the\ returned\ array\n\ \n
+comment5.params=s
+comment5.target=java.util.List\ stringToArr(java.lang.String)
+comment5.text=\n\ Given\ a\ String,\ return\ a\ List\ of\ Strings\ where\ each\ character\ is\ a\ single\ element.\n\n\ @param\ s\ is\ a\ String\n\ @return\ a\ List\ of\ strings\ where\ each\ character\ in\ s\ is\ an\ element\ of\ the\ returned\ List\n\ \n
+comment6.params=strings\ matchString
+comment6.target=int\ firstOccursAtIndex(java.lang.String[],\ java.lang.String)
+comment6.text=\n\ Return\ the\ INDEX\ of\ the\ first\ occurrence\ of\ a\ String\ within\ an\ array.\ \n\ If\ the\ String\ is\ not\ stored\ in\ the\ array\ then\ return\ -1.\n\n\ @param\ strings\ an\ array\ of\ Strings\n\ @return\ this\ index\ in\ strings\ of\ where\ matchString\ first\ appears.\ \ -1\ if\ matchString\ is\ not\ found\n\ \n
+comment7.params=strings\ matchString
+comment7.target=int\ firstOccursAtIndex(java.util.List,\ java.lang.String)
+comment7.text=\n\ Return\ the\ INDEX\ of\ the\ first\ occurrence\ of\ a\ String\ within\ a\ List.\ \n\ If\ the\ String\ is\ not\ stored\ in\ the\ List\ then\ return\ -1.\n\n\ @param\ strings\ a\ List\ of\ Strings\n\ @return\ this\ index\ in\ strings\ of\ where\ matchString\ first\ appears.\ \ -1\ if\ matchString\ is\ not\ found\n\ \n
+comment8.params=strings
+comment8.target=java.lang.String[]\ swapFirstLast(java.lang.String[])
+comment8.text=\n\ Given\ an\ array\ of\ Strings,\ return\ a\ NEW\ copy\ of\ the\ array\ except\ that\ in\ the\ new\ array\n\ the\ first\ and\ the\ last\ elements\ have\ their\ positions\ exchanged.\n\n\ @param\ strings\ an\ array\ of\ Strings\n\ @return\ a\ new\ array\ of\ Strings\ that\ is\ the\ same\ as\ strings\ except\ that\ the\ first\ and\ last\ elements\ are\ exchanged\n\ \n
+comment9.params=strings
+comment9.target=java.util.List\ swapFirstLast(java.util.List)
+comment9.text=\n\ Given\ a\ List\ of\ Strings,\ return\ the\ same\ List\ except\ but\ with\ the\ first\ and\ the\ \n\ last\ elements\ have\ their\ exchanged.\n\n\ @param\ strings\ a\ List\ of\ Strings\n\ @return\ strings\ with\ the\ first\ and\ last\ elements\ are\ exchanged\n\ \n
+numComments=12

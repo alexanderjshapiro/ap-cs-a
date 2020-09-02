@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=FollowingMethodCalls
+comment0.text=\n\ This\ class\ was\ used\ to\ create\ the\ examples\ in\ the\ guided\ lesson\n\ Chapter\ 5\:\ Recursion,\ 2.3_Following\ Method\ Calls\n\ \n\ @author\ Mr.\ Middler\ \n\ @version\ 12/2/2016\n
+comment1.params=local
+comment1.target=int\ able(int)
+comment2.params=local
+comment2.target=int\ baker(int)
+comment3.params=local
+comment3.target=int\ charlie(int)
+comment4.params=local
+comment4.target=int\ dog(int)
+numComments=5

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=PlayingCards
+comment0.text=\n\ Write\ a\ description\ of\ class\ PlayingCards\ here.\n\n\ @author\ Alexander\ Shapiro\n\ @version\ 3/21/18\n
+comment1.params=
+comment1.target=PlayingCards()
+comment2.params=faceNum
+comment2.target=java.lang.String\ getFace(int)
+comment3.params=
+comment3.target=Card\ dealCard()
+comment3.text=\n\ Returns\ the\ next\ randomized\ card\ from\ the\ deck.\ \ The\ \n\ returned\ card\ is\ then\ removed\ from\ the\ deck\ and\ the\ \n\ number\ of\ cards\ left\ in\ the\ deck\ is\ adjusted.\n\n\ @return\ The\ next\ Card\ in\ the\ deck.\ \ If\ no\ more\ cards\ are\ left\ \n\ \ \ \ \ \ \ \ \ in\ the\ deck,\ null\ is\ returned.\n
+comment4.params=
+comment4.target=void\ shuffle()
+comment4.text=\n\ Reset\ all\ of\ the\ dealt\ cards\ and\ shuffle\ the\ deck.\n\n
+numComments=5

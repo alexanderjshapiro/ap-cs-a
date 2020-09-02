@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=DxTest
+comment0.text=\n\ The\ test\ class\ DxTest.\n\n\ @author\ \ Braskin,\ Aaron\n\ @version\ 2/10/17\n
+comment1.params=
+comment1.target=void\ test_Dx_00_DefaultConstructorAndGetNumFaces()
+comment10.params=
+comment10.target=void\ yourName()
+comment2.params=
+comment2.target=void\ test_Dx_01_GetFace()
+comment3.params=
+comment3.target=void\ test_Dx_02_Randomize_GetCurrentValue_GetCurrentFace()
+comment4.params=
+comment4.target=DxTest()
+comment4.text=\n\ Default\ constructor\ for\ test\ class\ DxTest\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment6.params=parameters\ expected\ run\ declaration
+comment6.target=boolean\ outputSummary(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment7.params=ptsPossible
+comment7.target=void\ awardPoints(double)
+comment8.params=
+comment8.target=void\ setUp()
+comment8.text=\n\ Sets\ up\ the\ test\ fixture.\n\n\ Called\ before\ every\ test\ case\ method.\n
+comment9.params=
+comment9.target=void\ tearDown()
+comment9.text=\n\ Tears\ down\ the\ test\ fixture.\n\n\ Called\ after\ every\ test\ case\ method.\n
+numComments=11

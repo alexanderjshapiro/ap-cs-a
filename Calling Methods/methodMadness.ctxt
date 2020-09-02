@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=methodMadness
+comment0.text=\n\ Demonstrate\ calling\ methods\ and\ debugging\n\ \n\ @author\ Mr.\ Middler\n\ @version\ 1\n
+comment1.params=
+comment1.target=void\ main()
+comment2.params=radius
+comment2.target=double\ circleArea(double)
+comment3.params=radius\ height
+comment3.target=double\ cylinderVolume(double,\ double)
+numComments=4

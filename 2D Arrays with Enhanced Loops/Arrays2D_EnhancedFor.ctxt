@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Arrays2D_EnhancedFor
+comment0.text=\n\ Write\ a\ description\ of\ class\ Arrays2D_EnhancedFor\ here.\n\ \n\ @author\ (Alexander\ Shapiro)\ \n\ @version\ (12/9/17)\n
+comment1.params=nums
+comment1.target=int\ count1s(int[])
+comment1.text=\n\ Given\ an\ array\ of\ integer\ values\ return\ the\ number\ of\ elements\ that\n\ have\ at\ least\ one\ 1\ digit\ in\ them.\n\ \n\ For\ example\:\n\ \ 1,\ 123,\ 501,\ and\ 911\ all\ have\ at\ least\ one\ 1\ digit\n\ but\:\n\ \ 42,\ 0,\ 666,\ and\ 98765432\ have\ no\ 1\ digits\n\ so,\ given\ the\ array\:\n\ \ {1,\ 501,\ 0,\ 42,\ 911}\n\ 3\ would\ be\ returned.\n\ \n\ Precondition\:\ \ \ \ nums\ is\ not\ null\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ nums.length\ >\ 0\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ all\ values\ in\ nums\ >\=\ 0\n\ Postcondition\:\ \ \ nums\ is\ unchanged\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \n\ @param\ \ \ nums\ an\ array\ of\ integer\ values\ >\=\ 0\n\ @return\ \ the\ number\ of\ values\ in\ nums\ containing\ the\ digit\ 1\n
+comment2.params=mat
+comment2.target=int\ nonOnes(int[][])
+comment2.text=\n\ Given\ a\ 2D\ array\ of\ int\ values\ return\ the\ total\ number\ of\ values\n\ that\ DON'T\ have\ 1s\ in\ them.\n\ \n\ Note\:\ \ \ \ To\ receive\ full\ credit\ you\ must\ use\ an\ enhanced\ for\ loop\n\ \ \ \ \ \ \ \ \ \ AND\ use\ the\ count1s()\ method\!\n\ \n\ Precondition\:\ \ \ \ mat\ is\ not\ null\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ mat.length\ >\ 0\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ mat[0].length\ >\ 0\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ all\ values\ in\ mat\ >\=\ 0\n\ Postcondition\:\ \ \ mat\ is\ unchanged\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \n\ @param\ \ \ mat\ a\ 2D\ array\ of\ integer\ values\ >\=\ 0\n\ @return\ \ the\ number\ of\ values\ in\ mat\ that\ don't\ have\ a\ digit\ 1\n\ \ \ \ \ \ \ \ \ \ in\ them\n
+numComments=3

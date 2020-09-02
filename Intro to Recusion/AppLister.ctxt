@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=AppLister
+comment0.text=\n\ Write\ a\ description\ of\ class\ AppLister\ here.\n\ \n\ @author\ (Alexander\ Shapiro)\ \n\ @version\ (1/5/18)\n
+comment1.params=folder\ indentLevel
+comment1.target=void\ printAppsWithIndent(java.lang.String,\ int)
+comment2.params=folder
+comment2.target=void\ printAppsInFolder(java.lang.String)
+comment2.text=\n\ Given\ a\ folder\ name,\ print\ out\ the\ apps\ within\ the\ folder,\ one\ app\ name\ per\ line\n\n\ @param\ \ \ folder\ the\ name\ of\ the\ folder\ to\ list\n
+comment3.params=folder
+comment3.target=java.lang.String[]\ getAppsInFolder(java.lang.String)
+comment3.text=\n\ Given\ a\ folder\ name,\ return\ a\ list\ of\ the\ apps\ AND\ folders\ in\ the\ current\ folder.\n\ \ \ \ \n\ @param\ \ \ folder\ the\ name\ containing\ the\ apps\ and\ subfolders\n\ @return\ \ a\ list\ of\ the\ apps\ within\ the\ folder.\ \ Any\ folders\ will\ start\ with\ the\ \n\ \ \ \ \ \ \ \ \ \ substring\ "FOLDER"\n
+numComments=4

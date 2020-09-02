@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Randomizer
+comment0.text=\n\ Defines\ the\ methods\ that\ randomizers\ (dice,\ cards,\ coins)\ should\ have.\n\n\ @author\ Alexander\ Shapiro\n\ @version\ 3/2/18\n
+comment1.params=
+comment1.target=int\ getNumFaces()
+comment2.params=
+comment2.target=int\ getCurrentValue()
+comment3.params=faceNum
+comment3.target=java.lang.String\ getFace(int)
+comment4.params=
+comment4.target=java.lang.String\ getCurrentFace()
+comment5.params=
+comment5.target=void\ randomize()
+numComments=6

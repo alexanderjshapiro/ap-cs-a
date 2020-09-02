@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=PolyhedralPlus
+comment0.text=\n\ Defines\ a\ dice\ randomizer\ object\ with\ any\ number\ of\ sides.\ If\ the\ highest\ number\n\ is\ rolled,\ a\ "bonus"\ dice\ with\ the\ same\ number\ of\ sides\ is\ created\ which\ is\ rolled\n\ again\ and\ added\ to\ the\ first\ roll.\n\n\ @author\ Alexander\ Shapiro\n\ @version\ 3/21/18\n
+comment1.params=setNumFaces
+comment1.target=PolyhedralPlus(int)
+comment2.params=
+comment2.target=int\ getCurrentValue()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=
+comment4.target=void\ randomize()
+numComments=5

@@ -1,0 +1,49 @@
+#BlueJ class context
+comment0.target=ScoreSheetTest
+comment0.text=\n\ The\ test\ class\ Fill2DTest.\n\n\ @author\ \ Aaron\ Braskin\ and\ Mitch\ Middler\n\ @version\ 11/21/2016\n
+comment1.params=params
+comment1.target=java.lang.String\ summarizeParams(java.lang.String)
+comment10.params=arr
+comment10.target=java.lang.String\ summarize(double[])
+comment10.text=\n\ Returns\ a\ String\ that\ summarizes\ the\ contents\ of\ the\ array.\n\ For\ example\:\ give\ an\ array\ of\ three\ elements\:\n\ \ arr[0]\ \=\ 5.0,\ arr[1]\ \=\ 10.5,\ arr[2]\ \=\ 15.75\ the\ result\ is\:\n\ \ {5.0,10.5,15.75}\n\ @param\ \ arr\ \ \ the\ array\ to\ summarize\n\ @return\ \ \ \ \ String\ in\ the\ form\ {arr[0],arr[...],arr[arr.length\ -1]}\n\n
+comment11.params=arr
+comment11.target=java.lang.String\ summarize(java.lang.String[])
+comment11.text=\n\ Returns\ a\ String\ that\ summarizes\ the\ contents\ of\ the\ array.\n\ For\ example\:\ give\ an\ array\ of\ three\ elements\:\n\ \ arr[0]\ \=\ "A",\ arr[1]\ \=\ "BC",\ arr[2]\ \=\ "DEF"\ the\ result\ is\:\n\ \ {"A","BC","DEF"}\n\ @param\ \ arr\ \ \ the\ array\ to\ summarize\n\ @return\ \ \ \ \ String\ in\ the\ form\ {arr[0],arr[...],arr[arr.length\ -1]}\n\n
+comment12.params=arr2d
+comment12.target=java.lang.String\ summarize(int[][])
+comment12.text=\n\ Returns\ a\ String\ that\ summarizes\ the\ contents\ of\ the\ array\ in\ row\ major\ order.\n\ For\ example\:\ give\ an\ array\ of\ three\ elements\:\n\ \ arr2d[0][0]\ \=\ 5,\ arr2d[0][1]\ \=\ 10,\ arr2d[1][0]\ \=\ 15,\ arr2d[1][1]\ \=\ 20\ the\ result\ is\:\n\ \ {{5,10},{15,20}}\n\ @param\ \ arr\ \ \ the\ array\ to\ summarize\n\ @return\ \ \ \ \ String\ in\ the\ form\ {{r0c0,r0c...},{r...c0,r...c...}}\n\n
+comment13.params=arr2d
+comment13.target=java.lang.String\ summarize(double[][])
+comment13.text=\n\ Returns\ a\ String\ that\ summarizes\ the\ contents\ of\ the\ array\ in\ row\ major\ order.\n\ @param\ \ arr\ \ \ the\ array\ to\ summarize\n\ @return\ \ \ \ \ String\ in\ the\ form\ {{r0c0,r0c...},{r...c0,r...c...}}\n\n
+comment14.params=arr2d
+comment14.target=java.lang.String\ summarize(java.lang.String[][])
+comment14.text=\n\ Returns\ a\ String\ that\ summarizes\ the\ contents\ of\ the\ array\ in\ row\ major\ order.\n\ For\ example\:\ give\ an\ array\ of\ three\ elements\:\n\ \ arr[0][0]\ \=\ "A",\ arr[0][1]\ \=\ "BC",\ arr[1][0]\ \=\ "DEF",\ arr[1][1]\ the\ result\ is\:\n\ \ {{"A","BC"},{"DEF","GHIJ"}}\n\ @param\ \ arr\ \ \ the\ array\ to\ summarize\n\ @return\ \ \ \ \ String\ in\ the\ form\ {{r0c0,r0c...},{r...c0,r...c...}}\n\n
+comment15.params=
+comment15.target=ScoreSheetTest()
+comment15.text=\n\ Default\ constructor\ for\ test\ class\ ScoreSheetTest\n
+comment16.params=
+comment16.target=void\ setUp()
+comment16.text=\n\ Sets\ up\ the\ test\ fixture.\n\n\ Called\ before\ every\ test\ case\ method.\n
+comment17.params=
+comment17.target=void\ tearDown()
+comment17.text=\n\ Tears\ down\ the\ test\ fixture.\n\n\ Called\ after\ every\ test\ case\ method.\n
+comment2.params=array
+comment2.target=java.lang.Object[]\ deepCopyOf(java.lang.Object[])
+comment3.params=array\ copiedArray\ index
+comment3.target=java.lang.Object\ deepCopyOf(java.lang.Object,\ java.lang.Object,\ int)
+comment4.params=
+comment4.target=void\ calcAvgCol()
+comment5.params=
+comment5.target=void\ scoresLessMeanSquaredCols()
+comment6.params=
+comment6.target=void\ stdDevCols()
+comment7.params=scores
+comment7.target=double[]\ calcAvg(double[][])
+comment7.text=\n\ Remove\ before\ distribution\ to\ students\n
+comment8.params=parameters\ expected\ run\ declaration
+comment8.target=boolean\ outputSummary(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment8.text=\n\ This\ method\ adds\ the\ values\ passed\ to\ this\ method\ to\ the\ $captureSummary\ instance\ variable\n\ each\ time\ it\ is\ called.\n\ \n\ It\ should\ be\ called\ once\ for\ each\ test\ result\ in\ your\ test\ group.\n\ \n\ If\ the\ expected\ and\ run\ Strings\ don't\ match\ then\ it\ will\ be\ included\ in\ the\ summary.\n\ \n\ This\ method\ also\ takes\ a\ parameter\ String\ declaration\ that\ will\ be\ prepended\ to\ the\ summary\ in\n\ place\ of\ the\ normal\ output\ so\ that\ it\ can\ be\ easily\ copied\ and\ pasted\ into\ a\ test\ method.\n\ \n\ If\ declaration\ is\ null\ then\ only\ the\ calling\ method\ with\ psuedo\ parameters\ along\ with\ the\n\ expected\ and\ run\ results.\n\ \n\ if\ declaration\ has\ a\ value\ then\ (see\ below\ for\ optimal\ format)\ it\ will\ be\ included\ in\ the\ summary.\n\ SUGGESTED\ declaration\ format\:\n\ type\ variableName\ \=\n\ \n\ If\ a\ method\ call\ does\ <b>not</b>\ survive\ the\ test\ then\ another\ check\ is\ made\ to\ see\ if\ this\n\ is\ the\ first\ method\ that\ has\ failed\ and\ if\ it\ is\ the\ failed\ call\ expected\ and\ run\ are\ recorded\ so\ that\n\ they\ can\ be\ used\ in\ an\ assert\ that\ will\ fail.\n\ \n\ @param\ \ \ parameters\ \ \ \ \ \ the\ values\ passed\ as\ parameters\ to\ the\ called\ method.\n\ @param\ \ \ expected\ \ \ \ \ \ \ \ specifies\ what\ the\ method\ <b>should</b>\ return\ as\ it's\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ results.\n\ @param\ \ \ run\ \ \ \ \ \ \ \ \ \ \ \ \ specifies\ the\ results\ when\ run\ from\ the\ student's\ class\n\ @param\ \ \ declaration\ \ \ \ \ If\ <em>not</em>\ null\ then\ a\ line\ is\ ouput\ to\ the\ console\ that\ includes\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ exact\ java\ code\ needed\ to\ make\ the\ method\ call\ that\ can\ be\ pasted\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ into\ a\ code\ editor.\n\ @return\ \ boolean\ \ \ \ \ \ \ \ \ the\ summary\ of\ calling\ the\ test\ method\ including\ the\ method\ name,\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ optionally\ as\ a\ valid\ method\ call,\ so\ it\ is\ a\ valid\ declaration,\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ parameters\ and\ a\ ;\n
+comment9.params=arr
+comment9.target=java.lang.String\ summarize(int[])
+comment9.text=\n\ Returns\ a\ String\ that\ summarizes\ the\ contents\ of\ the\ array.\n\ For\ example\:\ give\ an\ array\ of\ three\ elements\:\n\ \ arr[0]\ \=\ 5,\ arr[1]\ \=\ 10,\ arr[2]\ \=\ 15\ the\ result\ is\:\n\ \ {5,10,15}\n\ @param\ \ arr\ \ \ the\ array\ to\ summarize\n\ @return\ \ \ \ \ String\ in\ the\ form\ {arr[0],arr[...],arr[arr.length\ -1]}\n\n
+numComments=18

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=D30
+comment0.text=\n\ Defines\ a\ dice\ randomizer\ object\ with\ 30\ sides.\n\n\ @author\ Alexander\ Shapiro\n\ @version\ 3/7/18\n
+comment1.params=
+comment1.target=D30()
+comment2.params=
+comment2.target=java.lang.String\ imageURL()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

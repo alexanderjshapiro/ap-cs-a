@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ScoreSheet
+comment0.text=\n\ Write\ a\ description\ of\ class\ ScoreSheet\ here.\n\ \n\ @author\ (Chance\ T.\ and\ Alex\ S.)\ \n\ @version\ (12/8/17)\n
+comment1.params=scores
+comment1.target=double[]\ calcAvg(double[][])
+comment1.text=\n\ This\ method\ will\ return\ an\ array\ that\ calculates\ the\ average\ of\ all\ the\ columns\n\ in\ each\ row\ of\ the\ given\ array.\n\ \n\ @param\ \ \ scores\ \ \ \ \ \ 2D\ array\ of\ scores\n\ @return\ \ averages\ \ \ \ 1D\ array\ representing\ the\ average\ of\ each\ row\ of\ scores\n
+comment2.params=scores\ average
+comment2.target=double[][]\ scoresLessMeanSquared(double[][],\ double[])
+comment2.text=\n\ This\ method\ will\ return\ a\ 2\ dimensional\ array\ that\ calculates\ the\ square\ of\ the\ difference\n\ between\ the\ value\n\ and\ the\ average\ of\ the\ row.\ \ The\ avarage\ of\ the\ row\ was\ already\ calculated\ for\ you\ and\ passed\ \n\ in\ as\ a\ parameter.\n\ You\ will\ do\ the\ calculation\ and\ store\ the\ result\ back\ into\ the\ same\ element\ of\ the\ scores\ \n\ array\ for\ which\ you\ \n\ are\ calculating\ the\ result.\ \ At\ the\ end\ of\ the\ method,\ simply\ return\ the\ scores\ array.\n\ \n\ @param\ \ \ scores\ \ \ \ \ \ 2D\ array\ of\ scores\n\ @param\ \ \ average\ \ \ \ \ 1D\ array\ representing\ the\ average\ of\ each\ row\ of\ scores\n\ @return\ \ diffSquared\ 2D\ array\n
+comment3.params=scores
+comment3.target=double[]\ stdDev(double[][])
+comment3.text=\n\ This\ method\ will\ return\ an\ array\ that\ calculates\ the\ standard\ deviation\ of\ all\ of\ the\ columns\n\ in\ each\ row\ of\ the\ given\ array.\n\ \n\ To\ caluclauate\ the\ standard\ deviation,\ perform\ the\ following\ steps\:\n\ 1\:\ Use\ your\ calcAvg\ method\ to\ get\ the\ average\ value\ for\ each\ row\n\ 2\:\ Use\ your\ scoresLessMeanSquared\ method\ to\ calculate\ the\ square\ of\ the\ difference\ of\ each\ value\ \n\ \ \ \ \ with\ the\ row's\ avarage\n\ 3\:\ Use\ your\ calAvg\ again\ to\ get\ the\ average\ of\ what\ was\ calculated\ in\ step\ 2.\n\ 4\:\ Calculate\ the\ square\ root\ of\ each\ value\ in\ the\ array\ returned\ by\ step\ 3.\n\ 5\:\ return\ the\ results\ of\ step\ 4.\n\ \n\ @param\ \ \ scores\ \ \ \ \ \ 2D\ array\ of\ scores\n\ @return\ \ stdDev\ \ \ \ \ \ 1D\ array\ representing\ the\ standard\ deviation\ in\ each\ row\ of\ scores.\n
+numComments=4

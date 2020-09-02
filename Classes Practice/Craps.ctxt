@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Craps
+comment0.text=\n\ The\ Craps\ class\ plays\ a\ game\ of\ craps\ using\ MyRandom\ objects\ as\ dice.\ \n\ The\ program\ utilizes\ user\ input\ to\ control\ the\ game.\n\n\ @author\ Alexander\ Shapiro\n\ @version\ 2/14/18\n
+comment1.params=
+comment1.target=void\ main()
+comment2.params=
+comment2.target=int\ setWager()
+comment3.params=dice1Val\ dice2Val
+comment3.target=void\ printDice(int,\ int)
+comment4.params=diceVal
+comment4.target=void\ drawDice(int)
+comment5.params=
+comment5.target=void\ calibrateWindow()
+numComments=6

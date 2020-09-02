@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Arrays2D_EnhancedForTest
+comment0.text=\n\ The\ test\ class\ Arrays2D_EnhancedForTest.\n\n\ @author\ \ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=void\ count1s()
+comment2.params=
+comment2.target=void\ nonOnes()
+comment3.params=
+comment3.target=Arrays2D_EnhancedForTest()
+comment3.text=\n\ Default\ constructor\ for\ test\ class\ Arrays2D_EnhancedForTest\n
+comment4.params=parameters\ expected\ run\ declaration
+comment4.target=boolean\ outputSummary(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment5.params=
+comment5.target=void\ setUp()
+comment5.text=\n\ Sets\ up\ the\ test\ fixture.\n\n\ Called\ before\ every\ test\ case\ method.\n
+comment6.params=
+comment6.target=void\ tearDown()
+comment6.text=\n\ Tears\ down\ the\ test\ fixture.\n\n\ Called\ after\ every\ test\ case\ method.\n
+numComments=7

@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=FirstClass
+comment0.text=\n\ Write\ a\ description\ of\ class\ FirstClass\ here.\n\ \n\ @author\ (Alexander\ Shapiro)\ \n\ @version\ (12/6/17)\n
+comment1.params=
+comment1.target=java.lang.String\ yourName()
+comment1.text=\n\ Simply\ return\ your\ name\ as\ a\ String.\n\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \n\ @return\ your\ name\ formatted\ as\ "Last,\ First"\ as\ a\ String\n\ For\ example\ \:\n\ \ \ \ \ return\ "Middler,\ Mitch"\n
+comment2.params=array
+comment2.target=int[]\ setAllToOne1D(int[])
+comment3.params=array2D
+comment3.target=int[][]\ setAllToOne(int[][])
+comment4.params=array2D
+comment4.target=int[][]\ setToRowColNumber(int[][])
+comment5.params=array2D
+comment5.target=int[][]\ setRow2To5(int[][])
+comment6.params=array2D
+comment6.target=int[][]\ setCol3To10(int[][])
+comment7.params=array2D
+comment7.target=int[][]\ setLastTo100(int[][])
+comment8.params=array
+comment8.target=void\ printArray2D(int[][])
+numComments=9

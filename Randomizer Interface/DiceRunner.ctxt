@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=DiceRunner
+comment0.text=\n\ Instantiates\ three\ D30\ objects\ where\ they\ are\ rolled\ until\ the\ sum\ of\ their\ results\ are\n\ 50.\ The\ number\ of\ rolls\ that\ is\ took\ to\ roll\ a\ sum\ of\ 50\ is\ printed\ to\ the\ console.\n\n\ @author\ Alexander\ Shapiro\n\ @version\ 3/9/18\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

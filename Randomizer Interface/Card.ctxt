@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Card
+comment0.text=\n\ Represents\ a\ single\ card.\n\n\ @author\ Alexander\ Shapiro\n\ @version\ 3/21/18\n
+comment1.params=setValue\ setSuit
+comment1.target=Card(int,\ int)
+comment2.params=setSuit\ setValue
+comment2.target=Card(java.lang.String,\ int)
+comment3.params=
+comment3.target=int\ getValue()
+comment4.params=
+comment4.target=java.lang.String\ getFace()
+comment5.params=
+comment5.target=java.lang.String\ getFaceValue()
+comment6.params=
+comment6.target=java.lang.String\ getFaceSuit()
+comment7.params=other
+comment7.target=boolean\ sameSuit(Card)
+comment8.params=other
+comment8.target=boolean\ sameValue(Card)
+numComments=9

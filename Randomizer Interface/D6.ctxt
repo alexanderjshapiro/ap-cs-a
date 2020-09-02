@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=D6
+comment0.text=\n\ Defines\ a\ dice\ randomizer\ object\ with\ six\ sides.\ The\ dice\ can\ be\ randomized\ and\ its\ \n\ properties\ can\ be\ accessed.\n\n\ @author\ Alexander\ Shapiro\n\ @version\ 3/2/18\n
+comment1.params=
+comment1.target=D6()
+comment2.params=
+comment2.target=int\ getNumFaces()
+comment3.params=
+comment3.target=int\ getCurrentValue()
+comment4.params=faceNum
+comment4.target=java.lang.String\ getFace(int)
+comment5.params=
+comment5.target=java.lang.String\ getCurrentFace()
+comment6.params=
+comment6.target=void\ randomize()
+comment7.params=
+comment7.target=java.lang.String\ yourName()
+numComments=8

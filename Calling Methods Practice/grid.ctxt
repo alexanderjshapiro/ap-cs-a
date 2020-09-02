@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=grid
+comment0.text=\n\ Practice\ calling\ an\ existing\ method\ drawGrid.\ \ Your\ instructions\ are\ below\ in\ the\ draw()\ and\ drawGrid()\ methods.\n\ \ \ \ Search\ for\ "TASK"\ to\ find\ them.\ \ There\ are\ 4\ tasks.\n\ \n\ @author\ (Alexander\ Shapiro)\ \n\ @version\ (1/3/2018)\n
+comment1.params=
+comment1.target=void\ draw()
+comment2.params=xDimension\ yDimension\ size
+comment2.target=void\ drawGrid(int,\ int,\ int)
+comment2.text=\n\ Draw\ a\ grid\ using\ the\ output\ terminal\n\ \n\ \ \ TASK\ Step\ 3\ \:\ Notice\ how\ the\ drawGrid\ method\ is\ pretty\ complicated?\ \ \ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Simplify\ it\ by\ making\ a\ new\ method\ called\ drawRow\ to\ draw\ the\ dash\ "-"\ characters\ as\ a\ row.\ \ \ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Notice\ that\ there\ are\ two\ sections\ inside\ of\ drawGrid\ that\ repeat\ code\ to\ do\ that\!\ \ \ That\ is\ why\ this\ is\ a\ great\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ candidate\ for\ a\ new\ method.\ \ Move\ this\ repeated\ code\ into\ your\ drawRow\ method\ and\ then\ call\ that\ new\ method\ from\ drawGrid.\n\ \n\ \ \ TASK\ Step\ 4\ Extra\ credit\ \:\ When\ drawGrid()\ is\ asked\ to\ draw\ a\ 5x5\ grid\ of\ size\ 3,\ place\ an\ X\ character\ at\ the\ center\ of\ the\ grid.\n\ \n\ \n\ @param\ \ xDimension\ the\ number\ of\ columns\ in\ the\ grid\ \n\ @param\ \ yDimension\ the\ number\ of\ rows\ in\ the\ grid\ \n\ @param\ \ size\ the\ size\ of\ each\ grid\ element\n\ @return\ \ void\n
+comment3.params=xDimension\ size
+comment3.target=void\ drawRow(int,\ int)
+numComments=4

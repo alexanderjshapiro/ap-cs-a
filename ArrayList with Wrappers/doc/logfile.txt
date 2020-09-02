@@ -1,0 +1,43 @@
+Class documentation
+<---- javadoc command: ---->
+/Applications/BlueJ.app/Contents/Frameworks/jdk.framework/Versions/A/Contents/Home/bin/javadoc
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.8
+-classpath
+/Applications/BlueJ.app/Contents/Resources/Java/bluejcore.jar:/Applications/BlueJ.app/Contents/Resources/Java/junit-4.8.2.jar:/Applications/BlueJ.app/Contents/Resources/Java/userlib/pi4j-core.jar:/Applications/BlueJ.app/Contents/Resources/Java/userlib/pi4j-device.jar:/Applications/BlueJ.app/Contents/Resources/Java/userlib/pi4j-gpio-extension.jar:/Applications/BlueJ.app/Contents/Resources/Java/userlib/pi4j-service.jar:/Volumes/Development/Projects/APJava/Unit6-ArrayList/Unit6-ArrayList-Wrapper/Unit6-ArrayList-Wrapper/+libs/UTSLib.jar:/Volumes/Development/Projects/APJava/Unit6-ArrayList/Unit6-ArrayList-Wrapper/Unit6-ArrayList-Wrapper
+-d
+/Volumes/Development/Projects/APJava/Unit6-ArrayList/Unit6-ArrayList-Wrapper/Unit6-ArrayList-Wrapper/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+/Applications/BlueJ.app/Contents/Resources/Java/bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+/Volumes/Development/Projects/APJava/Unit6-ArrayList/Unit6-ArrayList-Wrapper/Unit6-ArrayList-Wrapper/ArrayLists.java
+<---- end of javadoc command ---->
+Loading source file /Volumes/Development/Projects/APJava/Unit6-ArrayList/Unit6-ArrayList-Wrapper/Unit6-ArrayList-Wrapper/ArrayLists.java...
+Constructing Javadoc information...
+Standard Doclet version 1.8.0_20
+Building tree for all the packages and classes...
+Generating /Volumes/Development/Projects/APJava/Unit6-ArrayList/Unit6-ArrayList-Wrapper/Unit6-ArrayList-Wrapper/doc/ArrayLists.html...
+/Volumes/Development/Projects/APJava/Unit6-ArrayList/Unit6-ArrayList-Wrapper/Unit6-ArrayList-Wrapper/ArrayLists.java:114: warning - @param argument "List" is not a parameter name.
+Generating /Volumes/Development/Projects/APJava/Unit6-ArrayList/Unit6-ArrayList-Wrapper/Unit6-ArrayList-Wrapper/doc/package-frame.html...
+Generating /Volumes/Development/Projects/APJava/Unit6-ArrayList/Unit6-ArrayList-Wrapper/Unit6-ArrayList-Wrapper/doc/package-summary.html...
+Generating /Volumes/Development/Projects/APJava/Unit6-ArrayList/Unit6-ArrayList-Wrapper/Unit6-ArrayList-Wrapper/doc/constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating /Volumes/Development/Projects/APJava/Unit6-ArrayList/Unit6-ArrayList-Wrapper/Unit6-ArrayList-Wrapper/doc/allclasses-frame.html...
+Generating /Volumes/Development/Projects/APJava/Unit6-ArrayList/Unit6-ArrayList-Wrapper/Unit6-ArrayList-Wrapper/doc/allclasses-noframe.html...
+Generating /Volumes/Development/Projects/APJava/Unit6-ArrayList/Unit6-ArrayList-Wrapper/Unit6-ArrayList-Wrapper/doc/index.html...
+Generating /Volumes/Development/Projects/APJava/Unit6-ArrayList/Unit6-ArrayList-Wrapper/Unit6-ArrayList-Wrapper/doc/stylesheet.css...
+1 warning
